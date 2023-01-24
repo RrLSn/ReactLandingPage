@@ -1,21 +1,13 @@
 import './App.css';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import Gallery from './components/Gallery';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <nav>
-        <h1>Logo</h1>
-        <div className='navlinks'>
-          <a href="index.html">Button 1</a>
-          <a href="index.html">Button 2</a>
-          <a href="index.html">Button 3</a>
-          <a href="index.html">Button 4</a>
-        </div>
-        <div className="button">
-          <input className='btn' type="button" value='Button 1' />
-          <input className='btn' type="button" value='Button 2' />
-        </div>
-      </nav>
+      <Navbar/>
       <main>
         <section className='template'>
           <h1>Welcome to the best website template!</h1>
@@ -78,17 +70,7 @@ function App() {
             <p>Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background</p>
           </div>
         </section>
-        <section className='gallery'>
-          <h1>Gallery</h1>
-          <div className='images'>
-            <img className='handImg img' src="/media/handrowning.svg" alt="" />
-            <img className='img' src="/media/img6.svg" alt="" />
-            <img className='img' src="/media/img7.svg" alt="" />
-            <img className='img' src="/media/img8.svg" alt="" />
-            <img className='img' src="/media/img9.svg" alt="" />
-          </div>
-        </section>
-
+        <Gallery/>
         <section className='theTeam'>
           <h1>Meet The Team</h1>
           <p>Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background</p>
@@ -159,67 +141,8 @@ function App() {
           </div>
         </section>
 
-        <section className='contact'>
-          <div className='contactImg'><img src="/media/img10.svg" alt="" /></div>
-          <div className='form'>
-
-            <div className="head">
-            <h1>Contact us</h1>
-            <p>Our lovely team would love to hear from you</p>
-            </div>
-
-            <div className="fill1">
-              <div>
-                <p>First name</p>
-                <input type="text" placeholder='Sodiq' />
-              </div>
-              <div>
-                <p>Last name</p>
-                <input type="text" placeholder='Afolabi' />
-              </div>
-              <div>
-                <p>Email</p>
-                <input type="text" placeholder='...@email.com' />
-              </div>
-              <div>
-                <p>Phone Number</p>
-                <input type="text" placeholder='+000 000 0000' />
-              </div>
-            </div>
-
-            <div className="issue">
-              <p>Issue</p>
-              <input type="text" placeholder="What's the issue..."/>
-            </div>
-
-            <button>Submit <img src="/media/Vector4.svg" alt="" /></button>
-            <div className="icon">
-            <div className='aiIcon'><img src="/media/Ai.svg" alt=""/>Ai</div>
-            <img src="/media/VectorG.svg" alt="" />
-              <div className='youtube'><img src="/media/VectorY.svg" alt="" /><img src="/media/VectorPlay.svg" alt="" /></div>
-          </div>
-          </div>
-        </section>
-        <footer>
-          <div>
-            <h1>Logo</h1>
-            <p>Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design, a design language for background applications, is refined by Ant UED Team.</p>
-          </div>
-          <div>
-            <p>Contact Us</p>
-            <a href="index.html">Button1</a>
-            <a href="index.html">Button2</a>
-            <a href="index.html">Button3</a>
-          </div>
-          <div>
-            <h4>Subscribe now</h4>
-            <p>Ant Design, a design language for background applications, is refined by Ant UED Team. Ant Design,</p>
-            <div className='inputs'>
-              <input type="text" />
-              <input type="button" value='Button' />
-            </div>
-          </div>
-        </footer>
+        <ContactUs/>
+        <Footer/>
       </main>
     </div>
   );
