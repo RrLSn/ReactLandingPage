@@ -79,7 +79,7 @@ function App() {
             <div className="arrow"><img src="/media/arrowLeft.svg" alt="" /></div>
             <div className="arrow"><img src="/media/arrowRight.svg" alt="" /></div>
           </div>
-          
+          <TeamMembers/>
         </section>
 
         <ContactUs/>
