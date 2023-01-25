@@ -3,6 +3,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Navbar from './components/Navbar';
+import TeamMembers from './components/TeamMembers';
 
 function App() {
   return (
@@ -78,67 +79,7 @@ function App() {
             <div className="arrow"><img src="/media/arrowLeft.svg" alt="" /></div>
             <div className="arrow"><img src="/media/arrowRight.svg" alt="" /></div>
           </div>
-          <div className='teamMembers'>
-            <div>
-            <img className='img' src="/media/img9.svg" alt="" />
-            <h4>Header</h4>
-            <p>Caption</p>
-            </div>
-
-            <div>
-            <img className='img' src="/media/img9.svg" alt="" />
-            <h4>Header</h4>
-            <p>Caption</p>
-            </div>
-
-            <div>
-            <img className='img' src="/media/img9.svg" alt="" />
-            <h4>Header</h4>
-            <p>Caption</p>
-            </div>
-
-            <div>
-            <img className='img' src="/media/img9.svg" alt="" />
-            <h4>Header</h4>
-            <p>Caption</p>
-            </div>
-
-            <div>
-            <img className='img' src="/media/img9.svg" alt="" />
-            <h4>Header</h4>
-            <p>Caption</p>
-            </div>
-
-            <div>
-            <img className='img' src="/media/img9.svg" alt="" />
-            <h4>Header</h4>
-            <p>Caption</p>
-            </div>
-
-            <div>
-            <img className='img' src="/media/img9.svg" alt="" />
-            <h4>Header</h4>
-            <p>Caption</p>
-            </div>
-
-            <div>
-            <img className='img' src="/media/img9.svg" alt="" />
-            <h4>Header</h4>
-            <p>Caption</p>
-            </div>
-
-            <div>
-            <img className='img' src="/media/img9.svg" alt="" />
-            <h4>Header</h4>
-            <p>Caption</p>
-            </div>
-
-            <div>
-            <img className='img' src="/media/img9.svg" alt="" />
-            <h4>Header</h4>
-            <p>Caption</p>
-            </div>
-          </div>
+          <TeamMembers/>
         </section>
 
         <ContactUs/>
