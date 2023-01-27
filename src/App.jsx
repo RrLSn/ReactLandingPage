@@ -79,7 +79,47 @@ function App() {
             <div className="arrow"><img src="/media/arrowLeft.svg" alt="" /></div>
             <div className="arrow"><img src="/media/arrowRight.svg" alt="" /></div>
           </div>
-          <TeamMembers/>
+          <div className='teamMembers'>
+            <TeamMembers img="/media/Avatar10.svg"
+            name="Bryant James"
+            role="FullStack Developer"/>
+
+            <TeamMembers img="/media/Avatar9.svg"
+            name="Erica Bill"
+            role="FullStack Developer"/>
+
+            <TeamMembers img="/media/Avatar8.svg"
+            name="Bernice Gregor"
+            role="Backend Developer"/>
+
+            <TeamMembers img="/media/Avatar7.svg"
+            name="Bernice Gregor"
+            role="Frontend Developer"/>
+
+            <TeamMembers img="/media/Avatar6.svg"
+            name="George Stinlesky"
+            role="FullStack Developer"/>
+
+            <TeamMembers img="/media/Avatar5.svg"
+            name="Janet Gregor"
+            role="Frontend Developer"/>
+
+            <TeamMembers img="/media/Avatar4.svg"
+            name="Jesus James"
+            role="Backend Developer"/>
+
+            <TeamMembers img="/media/Avatar3.svg"
+            name="Mary Brant"
+            role="Frontend Developer"/>
+
+            <TeamMembers img="/media/Avatar2.svg"
+            name="Joe David Brant"
+            role="Frontend Developer"/>
+
+            <TeamMembers img="/media/Avatar1.svg"
+            name="Raju Shakuur"
+            role="Frontend Developer"/>
+          </div>
         </section>
 
         <ContactUs/>
