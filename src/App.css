@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
   width: 6px;
   background-color: white;
 }
@@ -13,7 +13,7 @@
 *::-webkit-scrollbar-thumb {
   background-color: #a6a1a1;
   border-radius: 40px;
-}
+} */
 
 nav{
   width: 100%;
